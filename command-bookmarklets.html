@@ -1,0 +1,38 @@
+<!DOCTYPE NETSCAPE-Bookmark-file-1>
+<!-- This is an automatically generated file.
+     It will be read and overwritten.
+     DO NOT EDIT! -->
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8">
+<TITLE>Bookmarks</TITLE>
+<H1>Bookmarks</H1>
+<DL><p>
+    <DT><H3 ADD_DATE="1746129009" LAST_MODIFIED="1760063917" PERSONAL_TOOLBAR_FOLDER="true">Bookmarks bar</H3>
+    <DL><p>
+        <DT><H3 ADD_DATE="1746151102" LAST_MODIFIED="1746231279">Commands</H3>
+        <DL><p>
+            <DT><H3 ADD_DATE="1746231276" LAST_MODIFIED="1746233349">Actions</H3>
+            <DL><p>
+                <DT><A HREF="javascript:window.print();" ADD_DATE="1746231295">Print</A>
+                <DT><A HREF="javascript:document.execCommand('undo');" ADD_DATE="1746232461">Undo</A>
+                <DT><A HREF="javascript:document.execCommand('redo');" ADD_DATE="1746232475">Redo</A>
+            </DL><p>
+            <DT><H3 ADD_DATE="1746230208" LAST_MODIFIED="1760063903">Edit...</H3>
+            <DL><p>
+                <DT><A HREF="javascript:void(document.designMode=document.designMode==='on'?%27off%27:%27on%27)" ADD_DATE="1759013496">Edit (Toggle)</A>
+                <DT><A HREF="javascript:(()=>{if(window.__drawActive)return;window.__drawActive=true;let d=document,c=d.createElement('canvas'),ctx=c.getContext('2d');Object.assign(c.style,{position:'fixed',top:'0',left:'0',width:'100vw',height:'100vh',zIndex:'9998',pointerEvents:'auto',cursor:'crosshair'}),c.width=innerWidth,c.height=innerHeight,d.body.appendChild(c);ctx.lineCap='round';let draw=false,x=0,y=0,color='#000',isEraser=false,penSize=6;let%20start=e=%3E(draw=true,[x,y]=[e.clientX||e.touches?.[0].clientX,e.clientY||e.touches?.[0].clientY]),move=e=%3E{if(!draw)return;let%20nx=e.clientX||e.touches?.[0].clientX,ny=e.clientY||e.touches?.[0].clientY;ctx.beginPath(),ctx.moveTo(x,y),ctx.lineTo(nx,ny),ctx.lineWidth=penSize,ctx.strokeStyle=color,ctx.globalCompositeOperation=isEraser?'destination-out':'source-over',ctx.stroke(),[x,y]=[nx,ny]},end=()=%3Edraw=false;c.addEventListener('mousedown',start);c.addEventListener('mousemove',move);c.addEventListener('mouseup',end);c.addEventListener('mouseleave',end);c.addEventListener('touchstart',start);c.addEventListener('touchmove',move);c.addEventListener('touchend',end);let%20t=d.createElement('div');Object.assign(t.style,{position:'fixed',top:'10px',left:'50%',transform:'translateX(-50%)',zIndex:'9999',background:'white',padding:'10px',borderRadius:'8px',boxShadow:'0%202px%208px%20rgba(0,0,0,0.2)',display:'flex',gap:'10px',alignItems:'center',fontFamily:'Raleway,%20sans-serif',fontWeight:'500'});t.innerHTML='%3Cinput%20type=%22color%22%3E%3Cinput%20type=%22range%22%20min=%221%22%20max=%2230%22%20value=%226%22%3E%3Cbutton%3EEraser%3C/button%3E%3Cbutton%3EClear%3C/button%3E%3Cbutton%3EExit%3C/button%3E';d.body.appendChild(t);let%20[picker,slider,eraserBtn,clearBtn,exitBtn]=t.children;picker.oninput=e=%3E{color=e.target.value;if(!isEraser)ctx.strokeStyle=color};slider.oninput=e=%3EpenSize=+e.target.value;eraserBtn.onclick=()=%3E{isEraser=!isEraser;eraserBtn.style.background=isEraser?'lightcoral':''};clearBtn.onclick=()=%3Ectx.clearRect(0,0,c.width,c.height);exitBtn.onclick=()=%3E{t.remove();c.style.pointerEvents='none';c.style.cursor='default';window.__drawActive=false;c.removeEventListener('mousedown',start);c.removeEventListener('mousemove',move);c.removeEventListener('mouseup',end);c.removeEventListener('mouseleave',end);c.removeEventListener('touchstart',start);c.removeEventListener('touchmove',move);c.removeEventListener('touchend',end);};let%20l=d.createElement('link');l.rel='stylesheet';l.href='https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap';d.head.appendChild(l);})();" ADD_DATE="1746231735">Draw</A>
+                <DT><A HREF="javascript:(function(){  const keys = Object.keys(localStorage);  const action = prompt(&quot;Choose action: view / set / remove / clear&quot;, &quot;view&quot;);  if (action === &quot;view&quot;) {    let choice = prompt(&quot;Choose a key:\n&quot; + keys.join(&quot;\n&quot;));    if (choice && localStorage.getItem(choice) !== null) {      alert(choice + &quot; = &quot; + localStorage.getItem(choice));    } else {      alert(&quot;Key not found.&quot;);    }  }  else if (action === &quot;set&quot;) {    let choice = prompt(&quot;Choose existing key or type new:\n&quot; + keys.join(&quot;\n&quot;));    if (choice) {      let value = prompt(&quot;Value for &quot; + choice + &quot;?%22,%20localStorage.getItem(choice)%20||%20%22%22);%20%20%20%20%20%20localStorage.setItem(choice,%20value);%20%20%20%20%20%20alert(%22Saved%20%22%20+%20choice%20+%20%22=%22%20+%20value);%20%20%20%20}%20%20}%20%20else%20if%20(action%20===%20%22remove%22)%20{%20%20%20%20let%20choice%20=%20prompt(%22Choose%20key%20to%20remove:\n%22%20+%20keys.join(%22\n%22));%20%20%20%20if%20(choice%20&&%20localStorage.getItem(choice)%20!==%20null)%20{%20%20%20%20%20%20localStorage.removeItem(choice);%20%20%20%20%20%20alert(%22Removed%20%22%20+%20choice);%20%20%20%20}%20else%20{%20%20%20%20%20%20alert(%22Key%20not%20found.%22);%20%20%20%20}%20%20}%20%20else%20if%20(action%20===%20%22clear%22)%20{%20%20%20%20if%20(confirm(%22Clear%20ALL%20localStorage?%22))%20{%20%20%20%20%20%20localStorage.clear();%20%20%20%20%20%20alert(%22All%20cleared%22);%20%20%20%20}%20%20}%20%20else%20{%20%20%20%20alert(%22Unknown%20action.%22);%20%20}})();" ADD_DATE="1756432611">LocalStorage</A>
+            </DL><p>
+            <DT><H3 ADD_DATE="1746230834" LAST_MODIFIED="1756432611">View...</H3>
+            <DL><p>
+                <DT><A HREF="javascript:alert(document.body.innerText.split(/\s+/).length);" ADD_DATE="1746233349">Word count</A>
+                <DT><A HREF="javascript:alert(document.cookie);" ADD_DATE="1746230926">Cookies</A>
+                <DT><A HREF="javascript:(function(){  const url = prompt('Enter the website URL:');  if (url) {    const iframe = document.createElement('iframe');    iframe.src = url;    iframe.style.position = 'fixed';    iframe.style.top = '0';    iframe.style.left = '0';    iframe.style.width = '300px';    iframe.style.height = '100%';    iframe.style.border = 'none';    iframe.style.zIndex = '9999';    document.body.appendChild(iframe);  }})();" ADD_DATE="1746231407">Website sidebar</A>
+            </DL><p>
+            <DT><H3 ADD_DATE="1746230693" LAST_MODIFIED="1746230793">Go to...</H3>
+            <DL><p>
+                <DT><A HREF="javascript:window.scrollTo(0, 0);" ADD_DATE="1746230718">Top of page</A>
+                <DT><A HREF="javascript:window.scrollTo(0, document.body.scrollHeight);" ADD_DATE="1746230793">Bottom of page</A>
+            </DL><p>
+        </DL><p>
+    </DL><p>
+</DL><p>
